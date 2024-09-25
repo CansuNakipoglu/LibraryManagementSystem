@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Tolunay\\Desktop\\LibaryManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F0578953-D579-448D-A848-6E981CAEE77E}|src\\LibaryManagementSystem.UI\\LibaryManagementSystem.UI.csproj|c:\\users\\tolunay\\desktop\\libarymanagementsystem\\src\\libarymanagementsystem.ui\\views\\book\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F0578953-D579-448D-A848-6E981CAEE77E}|src\\LibaryManagementSystem.UI\\LibaryManagementSystem.UI.csproj|solutionrelative:src\\libarymanagementsystem.ui\\views\\book\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0578953-D579-448D-A848-6E981CAEE77E}|src\\LibaryManagementSystem.UI\\LibaryManagementSystem.UI.csproj|c:\\users\\tolunay\\desktop\\libarymanagementsystem\\src\\libarymanagementsystem.ui\\views\\book\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F0578953-D579-448D-A848-6E981CAEE77E}|src\\LibaryManagementSystem.UI\\LibaryManagementSystem.UI.csproj|solutionrelative:src\\libarymanagementsystem.ui\\views\\book\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0578953-D579-448D-A848-6E981CAEE77E}|src\\LibaryManagementSystem.UI\\LibaryManagementSystem.UI.csproj|c:\\users\\tolunay\\desktop\\libarymanagementsystem\\src\\libarymanagementsystem.ui\\views\\book\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F0578953-D579-448D-A848-6E981CAEE77E}|src\\LibaryManagementSystem.UI\\LibaryManagementSystem.UI.csproj|solutionrelative:src\\libarymanagementsystem.ui\\views\\book\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tolunay\\Desktop\\LibaryManagementSystem\\src\\LibaryManagementSystem.UI\\Views\\Book\\Detail.cshtml",
+              "RelativeDocumentMoniker": "src\\LibaryManagementSystem.UI\\Views\\Book\\Detail.cshtml",
+              "ToolTip": "C:\\Users\\Tolunay\\Desktop\\LibaryManagementSystem\\src\\LibaryManagementSystem.UI\\Views\\Book\\Detail.cshtml",
+              "RelativeToolTip": "src\\LibaryManagementSystem.UI\\Views\\Book\\Detail.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-25T13:14:34.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tolunay\\Desktop\\LibaryManagementSystem\\src\\LibaryManagementSystem.UI\\Views\\Book\\Update.cshtml",
+              "RelativeDocumentMoniker": "src\\LibaryManagementSystem.UI\\Views\\Book\\Update.cshtml",
+              "ToolTip": "C:\\Users\\Tolunay\\Desktop\\LibaryManagementSystem\\src\\LibaryManagementSystem.UI\\Views\\Book\\Update.cshtml",
+              "RelativeToolTip": "src\\LibaryManagementSystem.UI\\Views\\Book\\Update.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-25T13:13:46.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tolunay\\Desktop\\LibaryManagementSystem\\src\\LibaryManagementSystem.UI\\Views\\Book\\Create.cshtml",
+              "RelativeDocumentMoniker": "src\\LibaryManagementSystem.UI\\Views\\Book\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Tolunay\\Desktop\\LibaryManagementSystem\\src\\LibaryManagementSystem.UI\\Views\\Book\\Create.cshtml",
+              "RelativeToolTip": "src\\LibaryManagementSystem.UI\\Views\\Book\\Create.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-25T13:04:39.274Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<style>
+    .button-container {
+        margin-top: 50px;
+    }
+
+    .btn-custom {
+        font-size: 20px;
+        padding: 20px;
+    }
+</style>
+
+<div class="text-center">
+    <h1 class="display-4 mt-5 pt-5" style="font-family:'Roboto Condensed', sans-serif;font-weight:bolder; font-size:50px; color:rgb(59 113 202)">Kütüphane Yönetim Sistem Paneline Hoşgeldiniz</h1>
+    <img style="height:750px"  src="~/images/management.jpeg" />
+
+    <div class="container button-container">
+        <div class="row">
+            <div class="col-md-6">
+                <a asp-controller="Book" asp-action="Index" class="btn btn-warning btn-block btn-lg btn-custom">Kitap Yönetimi</a>
+            </div>
+            <div class="col-md-6">
+                <a asp-controller="Author" asp-action="Index" class="btn btn-success btn-block btn-lg btn-custom">Yazar Yönetimi</a>
+            </div>
+        </div>
+    </div>
+</div>

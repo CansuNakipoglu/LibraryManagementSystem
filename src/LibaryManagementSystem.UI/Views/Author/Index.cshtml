@@ -1,0 +1,77 @@
+﻿@model IEnumerable<LibaryManagementSystem.Core.Models.Entities.Author>
+
+<style>
+    .table-wrapper {
+        margin: 30px 0;
+        background-color: #f9f9f9;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .table thead th {
+        background-color: #007bff;
+        color: #fff;
+        text-align: center;
+    }
+
+    .table-hover tbody tr:hover {
+        background-color: #f1f1f1;
+    }
+</style>
+
+
+<div class="table-wrapper">
+
+    <div class="row text-center mt-3" style="font-family:'Roboto Condensed', sans-serif;"> <h1 style="font-weight:bolder; font-size:50px; color:rgb(59 113 202)">Yazar Yönetimi</h1></div>
+
+    <p>
+        <a asp-action="Create" class="btn btn-primary">Yeni Yazar Ekle</a>
+    </p>
+    <table class="table table-hover table-bordered">
+        <thead>
+            <tr>
+                <th>
+                    Yazar ID
+                </th>
+                <th>
+                    Yazar Adı
+                </th>
+                <th>
+                    Yazar Soyadı
+                </th>
+                <th>
+                    Doğum Tarihi
+                </th>
+                <th>
+                    Detay
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Id)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FirstName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.LastName)
+                    </td>
+                    <td>
+                        @item.DateOfBirth.ToString("yyyy/MM/dd")
+                    </td>
+                    <td>
+                        @Html.ActionLink("Detay", "Detail", new { id = item.Id })
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+
+
